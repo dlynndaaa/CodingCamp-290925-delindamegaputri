@@ -9,7 +9,7 @@ const deleteAllBtn = document.getElementById("delete-all-btn");
 
 let todos = [];
 
-flatpickr("#date-input", { dateFormat: "Y-m-d" });
+flatpickr("#date-input", { dateFormat: "d-m-Y" });
 
 todoForm.addEventListener("submit", (e) => {
     e.preventDefault();
